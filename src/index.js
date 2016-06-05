@@ -29,7 +29,7 @@ export default function( options = {} ) {
         return '__e = escape';
       });
 
-      const intro = hasEscape ? "import escape from 'lodash-es/escape'" : "";
+      const intro = hasEscape ? "import escape from 'underscore'" : "";
 
       return `
       ${intro}
